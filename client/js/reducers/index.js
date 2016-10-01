@@ -1,10 +1,10 @@
 'use strict';
 
 import {combineReducers} from 'redux';
-import rank from './rank';
+import videoList from './videoList';
 
 const rootReducer = combineReducers({
-    rank
-})
+    videoList
+});
 
 export default rootReducer;

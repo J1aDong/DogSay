@@ -20,7 +20,7 @@ class Header extends Component {
 
         return (
             <View style={[styles.container, {backgroundColor: _backgroundColor}]}>
-                <Text>{_title}</Text>
+                <Text style={{color: '#EFEFEF'}}>{_title}</Text>
             </View>
         )
     }
@@ -30,7 +30,7 @@ const styles = {
     container: {
         paddingTop: Util.getStatusHeight() + 5,
         paddingBottom: 5,
-        alignItems: 'center'
+        alignItems: 'center',
     }
 };
 

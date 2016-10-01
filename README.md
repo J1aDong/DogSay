@@ -1,5 +1,5 @@
 # DogSay	狗狗说
-an app by react native
+> an app by react native
 
 对于慕课网的学习记录[贯穿全栈React Native开发App](http://coding.imooc.com/learn/list/56.html)
 
@@ -21,9 +21,17 @@ an app by react native
 * [Rap](http://rap.taobao.org/org)
 * [Mockjs](http://mockjs.com/)
 
+## 参考资料
+[ReactNative中文网](http://reactnative.cn/docs/0.31/getting-started.html)
+
+[江清清的技术专栏](http://www.lcode.org/)
+
 
 ## 遇到的问题
 1. 用ipad真机调试没有热加载的设置
-	![](./imgs/20161001001.png)
+> ![](./imgs/20161001001.png)
+
+2. 图片(http)在ios上不能显示不能显示	
+> [iOS9 HTTP 不能正常使用的解决办法](https://segmentfault.com/a/1190000002933776)
 
 	

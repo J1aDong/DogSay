@@ -1,6 +1,6 @@
 'use strict';
 
-import {PixelRatio, Platform} from 'react-native';
+import {PixelRatio, Platform, Dimensions} from 'react-native';
 
 class Util {
     static getStatusHeight()
@@ -12,6 +12,11 @@ class Util {
         {
             return 0;
         }
+    }
+
+    static getWindowWidth()
+    {
+        return Dimensions.get('window').width;
     }
 }
 

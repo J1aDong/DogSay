@@ -7,19 +7,19 @@ const initialState = {
     text:''
 };
 
-export default function rank(state=initialState,action)
+export default function videoList(state=initialState, action)
 {
     switch (action.type){
-        case types.FETCH_RANK_LIST:
+        case types.FETCH_VIDEO_LIST:
             return Object.assign({},state,{
                 loading:true
             });
-        case types.RECEIVE_RANK_LIST:
+        case types.RECEIVE_VIDEO_LIST:
             return Object.assign({},state,{
                 loading:false,
                 text:action.text
             });
-        case types.SET_LOADING:
+        case types.SHOW_LOADING:
             return Object.assign({},state,{
                 loading:true,
                 text:"loading"

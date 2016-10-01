@@ -21,8 +21,9 @@ class Home extends Component {
     {
         return (
             <View style={{flex: 1}}>
-                <Header title="狗狗说"/>
-                <ScrollableTabView tabBarPosition={"bottom"} initialPage={0} renderTabBar={() => <DefaultTabBar />}>
+                <Header title="狗狗说" backgroundColor="#333333"/>
+                <ScrollableTabView tabBarPosition={"bottom"} locked={false} initialPage={0}
+                                   renderTabBar={() => <DefaultTabBar />}>
                     <VideoList tabLabel="ios-videocam"/>
                     <Edit tabLabel="ios-recording"/>
                     <Account tabLabel="ios-more"/>
