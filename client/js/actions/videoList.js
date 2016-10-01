@@ -1,6 +1,7 @@
-'use strict'
+'use strict';
 
 import * as types from './ActionTypes';
+import Mock from 'mockjs';
 
 export function fetchVideoList()
 {
@@ -15,9 +16,15 @@ export function fetchVideoList()
 
         fetch('http://rap.taobao.org/mockjs/8136/api/creations?accessToken=sd')
             .then((response) => response.json())
-            .then((responseText) =>
+            .then((response) =>
             {
-                console.log(responseText)
+                var data = Mock.mock(response);
+                console.log(data);
+
+                if (data.success)
+                {
+                    dispatch(receiveRankList(data));
+                }
             }).catch((error) =>
         {
             console.log(error);
@@ -32,10 +39,10 @@ function setLoading()
     }
 }
 
-function receiveRankList()
+function receiveRankList(data)
 {
     return {
         type: types.RECEIVE_VIDEO_LIST,
-        text: "Hello world"
+        data: data
     }
 }

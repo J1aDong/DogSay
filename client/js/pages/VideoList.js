@@ -42,11 +42,10 @@ class VideoList extends Component {
 
     renderRow(rowData)
     {
-        const {dispatch} = this.props;
-
         return (
             <TouchableOpacity onPress={() =>
             {
+                const {dispatch} = this.props;
                 dispatch(fetchVideoList());
             }}>
                 <View style={styles.item}>
@@ -77,8 +76,20 @@ class VideoList extends Component {
         );
     }
 
+    componentDidMount()
+    {
+        const {dispatch} = this.props;
+        dispatch(fetchVideoList());
+    }
+
     render()
     {
+        const {videoList} = this.props;
+        if (videoList)
+        {
+            console.log("我得到了-->" + videoList);
+        }
+
         return (
             <View style={styles.container}>
                 <ListView
