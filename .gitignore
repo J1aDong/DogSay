@@ -7,3 +7,5 @@
 /client/node_modules/
 /client/ios/build/
 server/
+/client/android/build/
+/client/android/app/build/

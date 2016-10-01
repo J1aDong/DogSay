@@ -5,7 +5,7 @@ import {
     AppRegistry,
     Navigator
 } from 'react-native';
-import HomeList from './pages/HomeList';
+import HomeList from './pages/Home';
 
 class App extends React.Component {
     render()
