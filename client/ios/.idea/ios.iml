@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CIDR_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/client/AppDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/Images.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/main.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/AppDelegate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/Base.lproj/LaunchScreen.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clientTests/clientTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/clientTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.jsbundle" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheetManager.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Geolocation">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Geolocation/RCTLocationObserver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTResizeMode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTGIFImageDecoder.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageBlurUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTLocalAssetImageLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageLoader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageBlurUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageCache.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTResizeMode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageEditingManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageCache.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageStoreManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTGIFImageDecoder.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageStoreManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageEditingManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Image/RCTImageUtils.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/LinkingIOS">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/LinkingIOS/RCTLinkingManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/LinkingIOS/RCTLinkingManager.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetworkTask.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTHTTPRequestHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetworking.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetworking.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetInfo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetworkTask.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTDataRequestHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTHTTPRequestHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTDataRequestHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Settings">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Settings/RCTSettingsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Settings/RCTSettingsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTShadowText.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTShadowRawText.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTText.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextFieldManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTText.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextFieldManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextSelection.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTText.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextSelection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTRawTextManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTRawTextManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextField.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextField.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTTextViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTShadowText.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Text/RCTShadowRawText.m" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Vibration">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Vibration/RCTVibration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Vibration/RCTVibration.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../node_modules/react-native/React">
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTExceptionsManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAlertManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTUIManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTExceptionsManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAlertManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAccessibilityManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTI18nManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAccessibilityManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTKeyboardObserver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTI18nUtil.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTI18nManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTStatusBarManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTI18nUtil.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAppState.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTEventEmitter.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTDevMenu.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAsyncLocalStorage.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTDevMenu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAsyncLocalStorage.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTRedBox.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTSourceCode.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTStatusBarManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTSourceCode.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTEventEmitter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTKeyboardObserver.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTRedBox.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTAppState.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTClipboard.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTDevLoadingView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTTiming.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTClipboard.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTDevLoadingView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTTiming.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Modules/RCTUIManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSLayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSLayout.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSNodeList.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSLayout-internal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/CSSLayout/CSSNodeList.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfileTrampoline-x86_64.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm64.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTFPSGraph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfile.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTMacros.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfile.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTJSCProfiler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfileTrampoline-i386.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTProfileTrampoline-arm.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTPerfMonitor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTFPSGraph.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Profiler/RCTJSCProfiler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTConvert+CoreLocation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTActivityIndicatorView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWebView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTProgressViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTBorderDrawing.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavItem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTBorderDrawing.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavItem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/UIView+React.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTAnimationType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRootShadowView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/UIView+React.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTActivityIndicatorViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSliderManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRefreshControl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTActivityIndicatorViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTDatePickerManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSliderManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTPickerManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTDatePickerManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSwitchManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTPickerManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWrapperViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWebViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWrapperViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTComponentData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWebViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavigatorManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavigatorManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTScrollableProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTWebView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSegmentedControlManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTFont.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTPicker.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTComponent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTPicker.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTextDecorationLineType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRefreshControlManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBar.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTComponentData.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBar.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMap.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapAnnotation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSegmentedControlManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRootShadowView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTProgressViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapAnnotation.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarItemManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSegmentedControl.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTScrollViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarItemManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTScrollView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSegmentedControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRefreshControlManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTScrollViewManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTScrollView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTViewControllerProtocol.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapOverlay.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTDatePicker.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarItem.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTRefreshControl.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTMapOverlay.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTDatePicker.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTTabBarItem.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSwitch.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavItemManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostViewController.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSwitch.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavItemManager.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostViewController.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTPointerEvents.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTActivityIndicatorView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTFont.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTConvert+MapKit.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSlider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/UIView+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTShadowView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTConvert+MapKit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSlider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTShadowView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTSwitchManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTBorderStyle.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavigator.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTConvert+CoreLocation.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTModalHostViewManager.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Views/RCTNavigator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/React.xcodeproj" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTRootViewDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTTouchHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridgeMethod.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTErrorInfo.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBatchedBridge.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTLog.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTKeyCommands.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTJavaScriptExecutor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTLog.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTJSStackFrame.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTConvert.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTEventDispatcher.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTFrameUpdate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridge+Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTNullability.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTKeyCommands.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTConvert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTImageSource.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTModuleMethod.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTModuleData.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTImageSource.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTModuleMethod.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTFrameUpdate.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridge.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTRootViewInternal.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTParserUtils.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTAssert.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTJSStackFrame.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTDisplayLink.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTInvalidating.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTErrorInfo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTAssert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTDefines.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTURLRequestHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBundleURLProvider.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridgeModule.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridge.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTRootView.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBundleURLProvider.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTTouchEvent.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTPerformanceLogger.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTModuleData.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTWebSocketProxy.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTTouchEvent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTPerformanceLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTDisplayLink.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTBridgeDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTParserUtils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTJavaScriptLoader.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTRootView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTEventDispatcher.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTJavaScriptLoader.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTWebSocketProxyDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTURLRequestDelegate.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTErrorCustomizer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Base/RCTTouchHandler.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Executors/RCTJSCWrapper.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Executors/RCTJSCWrapper.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Executors/RCTJSCExecutor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../node_modules/react-native/React/Executors/RCTJSCExecutor.mm" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CallKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PassKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudioKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AssetsLibrary.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchConnectivity.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IntentsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreVideo.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Messages.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SceneKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenGLES.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CFNetwork.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WatchKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GSS.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioUnit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreSpotlight.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HealthKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Metal.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Contacts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuickLook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SafariServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/WebKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CloudKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreImage.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/EventKitUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Photos.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Intents.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PushKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreTelephony.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotificationsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreText.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Speech.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ReplayKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SpriteKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Twitter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NetworkExtension.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreAudio.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreData.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ContactsUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MediaAccessibility.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UserNotifications.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ModelIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GLKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MetalKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/HomeKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AVKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMIDI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/VideoSubscriberAccount.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Social.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Accounts.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/OpenAL.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NotificationCenter.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/JavaScriptCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ImageIO.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/PhotosUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MobileCoreServices.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AddressBook.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/NewsstandKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MessageUI.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameKit.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreLocation.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/QuartzCore.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/iAd.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework/Headers" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/8.0.0/include" />
+          <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
