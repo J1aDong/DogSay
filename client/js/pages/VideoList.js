@@ -15,6 +15,12 @@ import Util from '../util/Common';
 import {connect} from 'react-redux';
 import {fetchVideoList} from '../actions/videoList';
 
+let cachedResults = {
+    nextPage: 1,
+    items: [],
+    total: 0
+};
+
 class VideoList extends Component {
 
     constructor(props)
@@ -22,21 +28,8 @@ class VideoList extends Component {
         super(props);
         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state = {
-            dataSource: ds.cloneWithRows([
-                {
-                    "_id": "130000197902116848",
-                    "thumb": "http://dummyimage.com/1280x720/6d9233)",
-                    "title": "测试内容5p64",
-                    "video": "http://v2.mukewang.com/d24881f7-41a6-4676-85f7-c3e03195aa31/M.mp4?auth_key=1475310941-0-0-54fdd19fdd26fe0058115201ddffcb00"
-                }
-                ,
-                {
-                    "_id": "120000197410282194",
-                    "thumb": "http://dummyimage.com/1280x720/146fdd)",
-                    "title": "测试内容5p64",
-                    "video": "http://v2.mukewang.com/d24881f7-41a6-4676-85f7-c3e03195aa31/M.mp4?auth_key=1475310941-0-0-54fdd19fdd26fe0058115201ddffcb00"
-                }
-            ])
+            dataSource: ds,
+            isLoadingTail: false
         }
     }
 
@@ -45,8 +38,6 @@ class VideoList extends Component {
         return (
             <TouchableOpacity onPress={() =>
             {
-                const {dispatch} = this.props;
-                dispatch(fetchVideoList());
             }}>
                 <View style={styles.item}>
                     <Text style={styles.title}>{rowData.title}</Text>
@@ -79,27 +70,68 @@ class VideoList extends Component {
     componentDidMount()
     {
         const {dispatch} = this.props;
-        dispatch(fetchVideoList());
+        dispatch(fetchVideoList(0));
+    }
+
+    _fetchMoreData(isLoadingTail)
+    {
+        console.log('_fetchMoreData' + isLoadingTail);
+        if (!this._hasMore() || isLoadingTail)
+        {
+            return;
+        }
+
+        console.log('can fetchMore');
+
+        var page = cachedResults.nextPage;
+        const {dispatch} = this.props;
+        dispatch(fetchVideoList(page));
+    }
+
+    _hasMore()
+    {
+        let length = cachedResults.items.length;
+        let total = cachedResults.total;
+        console.log('length-->' + length + ",total-->" + total);
+        return length < total;
     }
 
     render()
     {
         const {videoList} = this.props;
-        if (videoList)
+        let _data = [];
+        let _isLoadingTail = false;
+        let _total = 0;
+        if (videoList.data)
         {
-            console.log("我得到了-->" + videoList);
+            _data = videoList.data.data;
+            _total = videoList.data.total;
         }
+        if (videoList.isLoadingTail)
+        {
+            _isLoadingTail = videoList.isLoadingTail;
+        }
+
+        var items = cachedResults.items.slice();
+        items = items.concat(_data);
+
+        cachedResults.items = items;
+        cachedResults.total = _total;
 
         return (
             <View style={styles.container}>
                 <ListView
                     automaticallyAdjustContentInsets={false}
-                    dataSource={this.state.dataSource}
+                    dataSource={this.state.dataSource.cloneWithRows(cachedResults.items)}
                     enableEmptySections={true}
+                    onEndReached={() => this._fetchMoreData(_isLoadingTail)}
+                    onEndReachedThreshold={20}
                     renderRow={(rowData) => this.renderRow(rowData)}/>
             </View>
         )
     }
+
+
 }
 
 const styles = {

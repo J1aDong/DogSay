@@ -14,6 +14,8 @@
 > * [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 > * [rnpm](https://github.com/rnpm/rnpm)
 > * [react-mixin](https://github.com/brigand/react-mixin)
+> * [query-string](https://github.com/sindresorhus/query-string)
+> * [lodash](https://github.com/lodash/lodash)
 
 ## app的大致流程图
 ![](./imgs/20161001002.png)
