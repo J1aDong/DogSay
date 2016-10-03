@@ -9,7 +9,20 @@ export function fetchVideoList(page)
     return dispatch =>
     {
         console.log('fetchVideoList');
-        dispatch(showLoading());
+
+        let isLoadingTail = false;
+        let isRefreshing = false;
+
+        if (page !== 0)
+        {
+            isLoadingTail = true;
+        } else
+        {
+            isRefreshing = true;
+        }
+
+        dispatch(showLoading(isLoadingTail, isRefreshing));
+
         request.get(Config.api.base + Config.api.creations, {
             accessToken: 'abcdef',
             page: page
@@ -20,10 +33,12 @@ export function fetchVideoList(page)
     }
 }
 
-function showLoading()
+export function showLoading(isLoadingTail, isRefreshing)
 {
     return {
         type: types.SHOW_LOADING,
+        isLoadingTail: isLoadingTail,
+        isRefreshing: isRefreshing
     }
 }
 

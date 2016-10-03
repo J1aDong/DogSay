@@ -8,15 +8,17 @@ import {
     View,
     Image,
     TouchableOpacity,
-    ListView
+    ListView,
+    RefreshControl
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Util from '../util/Common';
 import {connect} from 'react-redux';
-import {fetchVideoList} from '../actions/videoList';
+import {fetchVideoList, showLoading} from '../actions/videoList';
+import * as Progress from 'react-native-progress';
 
 let cachedResults = {
-    nextPage: 1,
+    nextPage: 0,
     items: [],
     total: 0
 };
@@ -29,7 +31,7 @@ class VideoList extends Component {
         const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
         this.state = {
             dataSource: ds,
-            isLoadingTail: false
+            isRefreshing: false
         }
     }
 
@@ -84,6 +86,7 @@ class VideoList extends Component {
         console.log('can fetchMore');
 
         var page = cachedResults.nextPage;
+        page++;
         const {dispatch} = this.props;
         dispatch(fetchVideoList(page));
     }
@@ -102,6 +105,7 @@ class VideoList extends Component {
         let _data = [];
         let _isLoadingTail = false;
         let _total = 0;
+        let _isRefreshing = false;
         if (videoList.data)
         {
             _data = videoList.data.data;
@@ -110,10 +114,19 @@ class VideoList extends Component {
         if (videoList.isLoadingTail)
         {
             _isLoadingTail = videoList.isLoadingTail;
+            _isRefreshing = videoList.isRefreshing;
         }
 
         var items = cachedResults.items.slice();
-        items = items.concat(_data);
+        if (cachedResults.nextPage !== 0)
+        {
+            console.log('nextPage !== 0');
+            items = items.concat(_data);
+        } else
+        {
+            console.log('nextPage == 0');
+            items = _data.concat(items);
+        }
 
         cachedResults.items = items;
         cachedResults.total = _total;
@@ -126,15 +139,62 @@ class VideoList extends Component {
                     enableEmptySections={true}
                     onEndReached={() => this._fetchMoreData(_isLoadingTail)}
                     onEndReachedThreshold={20}
+                    refreshControl={
+                        <RefreshControl
+                            refreshing={_isRefreshing}
+                            onRefresh={() =>
+                            {
+                                this._onRefresh(_isRefreshing)
+                            }}
+                            tintColor="#ff0000"
+                            title="Loading..."
+                            titleColor="#ff6600"
+                            colors={['#ff0000', '#00ff00', '#0000ff']}
+                            progressBackgroundColor="#ffff00"
+                        />
+                    }
+                    renderFooter={() => this._renderFooter(_isLoadingTail)}
                     renderRow={(rowData) => this.renderRow(rowData)}/>
             </View>
         )
     }
 
+    _onRefresh(isRefreshing)
+    {
+        if (!this._hasMore() || isRefreshing)
+        {
+            return;
+        }
+        const {dispatch} = this.props;
+        showLoading(false, true);
+        dispatch(fetchVideoList(0));
+    }
 
+    _renderFooter(isLoadingTail)
+    {
+        if (!this._hasMore() && cachedResults.total !== 0)
+        {
+            return (
+                <View style={styles.loadingMore}>
+                    <Text style={styles.loadingText}>没有更多了</Text>
+                </View>
+            )
+        }
+
+        if (!isLoadingTail)
+        {
+            return (<View style={styles.loadingMore}/>)
+        }
+
+        return (
+            <View style={styles.loadingMore}>
+                <Progress.Circle size={30} indeterminate={true} borderWidth={3}/>
+            </View>
+        )
+    }
 }
 
-const styles = {
+const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
@@ -191,8 +251,17 @@ const styles = {
     commentIcon: {
         fontSize: 22,
         color: '#333'
-    }
-};
+    },
+    loadingMore: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    loadingText: {
+        color: '#777',
+        textAlign: 'center'
+    },
+});
 
 //容器组件使用 connect() 方法连接 Redux
 function mapStateToProps(state)

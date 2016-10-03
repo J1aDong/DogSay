@@ -19,12 +19,13 @@ export default function videoList(state = initialState, action)
             return Object.assign({}, state, {
                 loading: false,
                 data: action.data,
-                isLoadingTail:false
+                isLoadingTail: false
             });
         case types.SHOW_LOADING:
             return Object.assign({}, state, {
                 loading: true,
-                isLoadingTail:true
+                isLoadingTail: action.isLoadingTail,
+                isRefreshing: action.isRefreshing
             });
         default:
             return state;
